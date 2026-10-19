@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lse-market-data-analysis"
+version = "1.0.0"
+description = "Auditable LSE order and trade ingestion with cancellation-aware SQL analysis"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+mysql = ["PyMySQL[rsa]>=1.1,<2"]
+test = ["pytest>=8,<9"]
+plots = ["matplotlib>=3.7,<4"]
+
+[project.scripts]
+lse-data = "lse_data.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+lse_data = ["sql/*.sql"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,10 @@
+{
+  "engine": "SQLite 3.54.0",
+  "reference": "Python Decimal from raw CSV",
+  "daily_vwap_groups_checked": 22,
+  "max_vwap_absolute_error": "1.31567948270E-13",
+  "cancellation_counts_match": true,
+  "active_trades": 129431,
+  "accepted_rows": 726666,
+  "rejected_rows": 0
+}

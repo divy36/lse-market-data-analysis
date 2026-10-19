@@ -1,0 +1,38 @@
+{
+  "rows": {
+    "order_detail": 274322,
+    "order_history": 322208,
+    "trade_report": 130136
+  },
+  "cancellation_messages": 367,
+  "cancelled_originals": 338,
+  "unmatched_cancellations": 29,
+  "active_trades": 129431,
+  "orphan_history": 0,
+  "missing_matching_orders": 89542,
+  "execution_events_without_trade_report": 0,
+  "active_nonpositive_price_or_size": 0,
+  "imports": [
+    {
+      "dataset": "order_detail",
+      "sha256": "27f2e791fc6ce0e56148f12d39c2bf2ddecfd93ebd381510501ae4490b298057",
+      "input_rows": 274322,
+      "accepted_rows": 274322,
+      "rejected_rows": 0
+    },
+    {
+      "dataset": "order_history",
+      "sha256": "946eca15b409fb1df0af143a89165cfd3e2800d7b3c3d5d80bd172a421168b45",
+      "input_rows": 322208,
+      "accepted_rows": 322208,
+      "rejected_rows": 0
+    },
+    {
+      "dataset": "trade_report",
+      "sha256": "544d86824a33cab0d88f0b25f7cd9127b9642863dfbee26e7ed536bfd05ee114",
+      "input_rows": 130136,
+      "accepted_rows": 130136,
+      "rejected_rows": 0
+    }
+  ]
+}
